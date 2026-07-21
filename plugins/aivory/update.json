@@ -9,8 +9,8 @@
   "changelog": "<h4>1.3.3</h4>\n<ul>\n  <li>Plugin-logo toegevoegd in het WordPress-updatescherm.</li>\n  <li>Compatibiliteit \"getest tot\" WordPress 7.0 wordt nu weergegeven.</li>\n</ul>\n\n<h4>1.3.2</h4>\n<ul>\n  <li>Bugfix: de cache van de plugin wordt nu correct geleegd.</li>\n  <li>Bugfix: de staging en productie-API worden nu correct geselecteerd op basis van WP_DEBUG.</li>\n</ul>\n\n<h4>1.3.1</h4>\n<ul>\n  <li>Ondersteuning voor automatische updates via de Webova-updateserver.</li>\n  <li>Knop in de instellingen om de cache van de plugin te legen.</li>\n  <li>Automatische wissel tussen de staging- en productie-API op basis van WP_DEBUG.</li>\n</ul>\n\n<h4>1.3.0</h4>\n<ul>\n  <li>Nieuwe widget \"Aivory Afspraak maken\" waarmee patiënten online een afspraak kunnen inplannen.</li>\n</ul>\n\n<h4>1.2.1</h4>\n<ul>\n  <li>Cloudflare Turnstile-script wordt nu correct in het registratieformulier geladen.</li>\n</ul>\n\n<h4>1.2.0</h4>\n<ul>\n  <li>Ondersteuning voor Cloudflare Turnstile toegevoegd ter bescherming tegen spam en bots.</li>\n</ul>\n\n<h4>1.1.0</h4>\n<ul>\n  <li>Praktijklocaties worden gecachet (30 minuten, alleen succesvolle responses).</li>\n</ul>\n\n<h4>1.0.0</h4>\n<ul>\n  <li>Eerste release met de patiëntregistratie-widget.</li>\n</ul>",
   "icons": {
     "default": "https://webovabv.github.io/banner/icon.png",
-    "1x": "https://webovabv.github.io/banner/icon.png",
-    "2x": "https://webovabv.github.io/banner/icon.png"
+    "1x": "https://webovabv.github.io/banner/icon-128x128.png",
+    "2x": "https://webovabv.github.io/banner/icon-256x256.png"
   },
   "banners": {
     "low": "https://webovabv.github.io/banner/banner-772x250.jpg",
