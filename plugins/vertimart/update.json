@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "download_url": "https://WebovaBV.github.io/plugins/vertimart/Vertimart-integratie.zip",
+  "requires_php": "8.1",
+  "requires": "7.0.2",
+  "tested": "7.1",
+  "last_updated": "2026-09-30 12:16:18 GMT",
+  "homepage": "https://www.webova.nl",
+  "changelog": "<h4>1.0.0</h4>\n<ul>\n  <li>Eerste release met de widgets \"Vertimart Patiëntenregistratie\" en \"Vertimart Afspraak maken\".</li>\n  <li>Instellingenpagina voor licentie-ID, subscription key en afspraaktypes, met een knop om de API-verbinding te testen.</li>\n  <li>Locaties en beschikbare tijden worden gecachet.</li>\n  <li>Ondersteuning voor automatische updates via de Webova-updateserver.</li>\n</ul>",
+  "icons": {
+    "default": "https://webovabv.github.io/banner/icon.png",
+    "1x": "https://webovabv.github.io/banner/icon-128x128.png",
+    "2x": "https://webovabv.github.io/banner/icon-256x256.png"
+  },
+  "banners": {
+    "low": "https://webovabv.github.io/banner/banner-772x250.jpg",
+    "high": "https://webovabv.github.io/banner/banner-1544x500.jpg"
+  }
+}
