@@ -1,14 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webova</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Webova Plugins</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 64px 20px;
+      font-family: system-ui, sans-serif;
+      color: #172334;
+      background: #f2f5f9;
+    }
+
+    main {
+      max-width: 720px;
+      margin: auto;
+      padding: 32px;
+      background: #fff;
+      border: 1px solid #dce3ed;
+      border-radius: 16px;
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      font-size: 28px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 18px 0;
+    }
+
+    li+li {
+      border-top: 1px solid #dce3ed;
+    }
+
+    li:last-child {
+      padding-bottom: 0;
+    }
+
+    .title {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      font-weight: 600;
+    }
+
+    .download {
+      flex-shrink: 0;
+      padding: 12px 20px;
+      border-radius: 8px;
+      background: #2358c4;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .download:hover {
+      background: #18449c;
+    }
+
+    :focus-visible {
+      outline: 3px solid #517de2;
+      outline-offset: 3px;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 24px 14px;
+      }
+
+      main {
+        padding: 24px 18px;
+      }
+
+      .download {
+        padding: 12px 16px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <script>
-        window.location.href = "https://webova.nl";
-    </script>
+  <main>
+    <h1>Webova Plugins</h1>
+    <ul>
+      <li>
+        <span class="title">Aivory</span>
+        <a class="download" href="aivory/Aivory-integratie.zip" download aria-label="Download Aivory plugin">Download</a>
+      </li>
+      <li>
+        <span class="title">Zorgform</span>
+        <a class="download" href="zorgform/zorgform-loader.zip" download aria-label="Download Zorgform plugin">Download</a>
+      </li>
+      <li>
+        <span class="title">Vertimart</span>
+        <a class="download" href="vertimart/Vertimart-integratie.zip" download aria-label="Download Vertimart plugin">Download</a>
+      </li>
+    </ul>
+  </main>
 </body>
+
 </html>
