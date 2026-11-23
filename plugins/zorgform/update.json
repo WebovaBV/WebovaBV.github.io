@@ -4,7 +4,7 @@
   "requires_php": "8.3",
   "requires": "",
   "tested": "",
-  "last_updated": "2026-11-17 09:57:21 GMT",
+  "last_updated": "2026-11-23 13:36:51 GMT",
   "homepage": "https://www.zorgform.nl",
-  "changelog": "# Changelog\n\n## 1.5\n\n- Shortcode `[zorgform form=\"...\"]` that renders a Zorgform form on the page\n- Overview of all forms and their shortcode on the settings page\n- \"Cache legen\" button on the settings page\n- Automatic updates from the WordPress plugins screen\n- Hides the form and shows a message when the Zorgform server is unreachable\n- Configurable texts for the submit button and form messages on the settings page\n\n## 1.4\n\n- Loads the Zorgform JavaScript plugin on every page once a practice key is set"
+  "changelog": "# Changelog\n\n## 1.5\n\n- Shortcode `[zorgform form=\"...\"]` that renders a Zorgform form on the page\n- Overview of all forms and their shortcode on the settings page\n- \"Cache legen\" button on the settings page\n- Automatic updates from the WordPress plugins screen\n- Hides the form and shows a message when the Zorgform server is unreachable\n- Configurable texts for the submit button and form messages on the settings page\n- Shortcode option `redirect=\"...\"` to go to another page after a successful submission\n\n## 1.4\n\n- Loads the Zorgform JavaScript plugin on every page once a practice key is set"
 }
